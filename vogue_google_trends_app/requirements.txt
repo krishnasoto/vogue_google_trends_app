@@ -1,5 +1,11 @@
-streamlit==1.25.0
-pandas>=2.0
-numpy>=1.25
-plotly>=5.18
-pytrends>=4.10
+pandas
+numpy
+streamlit
+plotly
+plotly-express
+pytrends
+requests
+selenium
+webdriver-manager 
+spacy
+es-core-news-sm  # Instalar el paquete PyPI 
