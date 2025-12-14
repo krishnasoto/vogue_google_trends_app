@@ -5,7 +5,13 @@ plotly
 plotly-express
 pytrends
 requests
+# selenium (Aunque no se use en deployment, es mejor dejar las dependencias completas)
 selenium
-webdriver-manager 
-spacy
-es-core-news-sm  # Instalar el paquete PyPI 
+webdriver-manager
+# --- SPACY (Versiones fijas y estables) ---
+spacy==3.5.0
+thinc==8.1.9
+pydantic==1.10.12
+# Modelo de spaCy (es-core-news-sm no siempre está en PyPI para todas las versiones)
+# La forma más segura es que tu código lo descargue, pero probemos la instalación directa.
+es-core-news-sm
